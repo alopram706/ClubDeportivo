@@ -5,16 +5,12 @@ require 'conexion.php';
 <html lang="es">
 
 <head>
-	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/jquery.dataTables.min.css">
 
-	<!-- Optional JavaScript -->
-	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 	<script src="js/jquery-3.4.1.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.dataTables.min.js"></script>
@@ -30,10 +26,8 @@ require 'conexion.php';
 
 <body>
 	<?php
-	//Preparo las sentencias SQL a ejecutar.
 	$sql = "SELECT * FROM clubdeportivo";
-	//Ejecuto sentencia y guardo el resultado
-	$resultado = $mysqli->query($sql); //Almaceno en resultado la consulta a la base de datos realizada en la variable $sql
+	$resultado = $mysqli->query($sql);
 	?>
 	<div class="container">
 		<div class="row">
@@ -41,7 +35,6 @@ require 'conexion.php';
 		</div>
 		<br>
 		<div class="row">
-			<!-- Registrar -->
 			<a href="registrar.php" class="btn btn-primary">Registrar</a>
 
 		</div>
