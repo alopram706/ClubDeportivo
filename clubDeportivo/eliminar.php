@@ -34,5 +34,3 @@
 	</div>
 </body>
 </html>
-
-<!-- Codigo revisado correctamente -->
