@@ -72,3 +72,4 @@ require 'conexion.php';
 </html>
 
 <!-- Se podría mejorar el código pero funciona, mejor no tocar nada -->
+<!-- Se vuelve a modificar -->
