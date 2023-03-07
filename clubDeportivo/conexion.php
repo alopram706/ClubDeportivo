@@ -10,4 +10,3 @@ if($mysqli->connect_errno){
 }
 ?>
 
-<!-- Modifico -->
