@@ -84,5 +84,3 @@ while ($var1 = $resultado->fetch_assoc()) {
 </body>
 
 </html>
-
-<!-- Este archivo esta correctamente revisado -->
