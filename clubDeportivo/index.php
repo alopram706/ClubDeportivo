@@ -31,7 +31,7 @@ require 'conexion.php';
 	?>
 	<div class="container">
 		<div class="row">
-			<h1>Socios</h1>
+			<h1>Socios del club deportivo</h1>
 		</div>
 		<br>
 		<div class="row">
@@ -40,13 +40,14 @@ require 'conexion.php';
 		</div>
 		<br>
 		<br>
+		<br>
 		<table id="tabla" class="display" style="width:100%">
 			<thead>
 				<tr>
 					<th>Nombre</th>
 					<th>Telefono</th>
 					<th>Fecha de nacimiento</th>
-					<th>Categoría</th>
+					<th>Categoria</th>
 					<th></th>
 					<th></th>
 				</tr>

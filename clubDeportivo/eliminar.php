@@ -19,17 +19,16 @@
 		$id = $_GET['id'];
 		$sql = "DELETE FROM clubdeportivo WHERE id LIKE '$id'";
 		$resultado = $mysqli->query($sql);
-		//0 -> error, 1-> correcto
 		if ($resultado > 0) {
 			?>
 				<br><br>
-				<p class="alert alert-primary">REGISTRO ELIMINADO</p>
+				<p class="alert alert-primary">REGISTRO ELIMINADO CORRECTAMENTE</p>
 				<br>
 				<a href="index.php" class="btn btn-primary">Regresar</a>
 			<?php
 		} else {
-			echo "<p>Error al eliminar registro</p>";
-			echo "<p><a href='index.php'>Regresar</a></p>";
+			echo "<p>Error al eliminar registro, buen intento socio</p>";
+			echo "<p><a href='index.php'>Regresar al inicio</a></p>";
 		}
 		?>
 	</div>
